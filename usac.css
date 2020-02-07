@@ -1,0 +1,27 @@
+body{
+    font-family:'Work Sans',sans-serif;
+    background-color:#FEFCFB;
+    
+}
+h1{
+    color:#00487c;
+}
+a{
+    color:#016fb9;
+    text-decoration:none;
+    
+}
+a:hover{
+    text-decoration:dotted;
+}
+ul {
+    list-style:none;
+    padding-left:0;
+}
+ 
+.main{
+    max-width:600px;
+    width:100%;
+    margin:auto;
+    padding:30px;
+}
