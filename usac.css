@@ -1,7 +1,13 @@
-body{
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  body{
     font-family:'Work Sans',sans-serif;
     background-color:#FEFCFB;
-    
+    margin:0;
 }
 h1{
     color:#00487c;
@@ -24,4 +30,24 @@ ul {
     width:100%;
     margin:auto;
     padding:30px;
+}
+
+nav{
+    background:black;
+    padding:10px 20px;
+   display:flex;
+   align-items: center; 
+ /*  justify-content: center;*/
+ 
+}
+.logo{
+    height:50px;
+    width:auto;
+    padding-right:10px;
+}
+h1{
+   color:white;
+   margin:0;
+   padding:0;
+   line-height:1rem;
 }
